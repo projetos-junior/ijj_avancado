@@ -1,13 +1,15 @@
 
 # Passo 1: Crie uma tupla com 5 frutas
 tupla = ("maçã", "banana", "laranja", "uva", "melancia")
-print("Frutas:", ', '.join(tupla))
+print("Frutas:", ', '.join(tupla)) #Esta função usa a função join da string para unir os elementos da tupla em uma única string, separada por vírgulas e espaços. Assim, a tupla é impressa sem os parênteses.
 
 # Passo 2: Altere a tupla para uma lista
 lista = list(tupla)
 print("Convertendo tupla em lista:", lista)
 
 # Passo 3: Insira 2 frutas extras a essa lista
+#lista.append("abacaxi") append: para um elemento de cada vez
+#lista.append("manga")
 lista.extend(["abacaxi", "manga"])
 print("Lista após adicionar frutas:", lista)
 
